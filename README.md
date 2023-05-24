@@ -1,4 +1,6 @@
-# idea
+# THIS IS RESEARCH REPO
+
+## idea
 
 when we have compiled kotlin framework and generated swift files we can automatically merge it.
 
@@ -16,14 +18,14 @@ to improve perfomance of dynamic framework way we can cache static library if ge
 
 maybe i find some way to link already linked dynamic framework with static library or object.
 
-# useful links
+## useful links
 
 - https://theswiftdev.com/building-static-and-dynamic-swift-libraries-using-the-swift-compiler/otool -L
 - https://github.com/JetBrains/kotlin/blob/e0389a0a870766b3d595b93c24905b491d02fab9/kotlin-native/konan/konan.properties#L132
 - https://github.com/JetBrains/kotlin/blob/e0389a0a870766b3d595b93c24905b491d02fab9/kotlin-native/backend.native/compiler/ir/backend.native/src/org/jetbrains/kotlin/backend/konan/Linker.kt#L127
 - https://github.com/JetBrains/kotlin/blob/e0389a0a870766b3d595b93c24905b491d02fab9/native/utils/src/org/jetbrains/kotlin/konan/target/Linker.kt#L75
 
-# research notes
+## research notes
 ```
 otool -L MultiPlatformLibrary.framework/MultiPlatformLibrary 
 MultiPlatformLibrary.framework/MultiPlatformLibrary:
